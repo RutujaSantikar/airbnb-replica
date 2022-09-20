@@ -87,6 +87,7 @@ img {
 
 .nav-icon {
   padding: 5px;
+  text-align: center;
 }
 .text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
