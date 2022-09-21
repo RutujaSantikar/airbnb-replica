@@ -22,23 +22,23 @@
           <div><img v-bind:src="navLogoFive" /></div>
           <div class="text">National parks</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon sm-none">
           <div><img v-bind:src="navLogoSix" /></div>
           <div class="text">Tiny homes</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon sm-none">
           <div><img v-bind:src="navLogoSeven" /></div>
           <div class="text">Design</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon sm-none">
           <div><img v-bind:src="navLogoEight" /></div>
           <div class="text">Camping</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon sm-none">
           <div><img v-bind:src="navLogoNine" /></div>
           <div class="text">Cabins</div>
         </div>
-        <div class="nav-icon">
+        <div class="nav-icon sm-none">
           <div><img v-bind:src="navLogoTen" /></div>
           <div class="text">Lake view</div>
         </div>
@@ -70,14 +70,14 @@ export default {
 <style scoped>
 section {
   width: 100%;
+  
 }
 .nav-content {
   width: 88%;
   margin: 1.5em auto;
   display: flex;
   justify-content: space-between;
-  position: relative;
-  z-index: 1;
+  
 }
 img {
   width: 24px;
@@ -94,5 +94,12 @@ img {
   font-size: 12px;
   color: lightslategrey;
   margin-top: 5px;
+}
+@media (max-width:743px){
+
+.sm-none{
+  display: none;
+}
+
 }
 </style>
