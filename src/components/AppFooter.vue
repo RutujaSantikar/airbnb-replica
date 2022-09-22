@@ -84,8 +84,9 @@ section {
     }
    section{
     bottom:-60px;
-    height: 125px;
+    height: 100px;
     width: 100%;
+    top:550px;
   border-top: 1px solid lightgray;
   position: fixed;
   background-color: white;
@@ -97,7 +98,7 @@ section {
   justify-content: space-evenly;
   text-align: center;
   
-  padding: 14px 0;
+  padding: 15px 0;
 
    }
    .fu{
