@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="main-body">
     <section>
       <nav class="nav-content">
         <div class="nav-icon">
-          <div><img v-bind:src="navLogoOne"  /></div>
+          <div><img v-bind:src="navLogoOne" /></div>
           <div class="text">OMG!</div>
         </div>
         <div class="nav-icon">
@@ -68,21 +68,24 @@ export default {
 </script>
 
 <style scoped>
+
 section {
   width: 100%;
-  
+   position: fixed;
+  background-color: white;
+  z-index: 1;
+  margin-top: 73px;
+  box-shadow: 0 2.5px 2px -2px lightgray;
 }
 .nav-content {
   width: 88%;
-  margin: 1.5em auto;
+  margin: 0.9em auto;
   display: flex;
   justify-content: space-between;
-  
 }
 img {
   width: 24px;
   height: 24x;
-  
 }
 
 .nav-icon {
@@ -95,11 +98,14 @@ img {
   color: lightslategrey;
   margin-top: 5px;
 }
-@media (max-width:743px){
-
-.sm-none{
-  display: none;
-}
-
+@media (max-width: 743px) {
+  .sm-none {
+    display: none;
+  }
+  section{
+    margin-top: 55px;
+    
+  
+  }
 }
 </style>

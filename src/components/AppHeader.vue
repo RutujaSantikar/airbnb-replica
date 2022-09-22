@@ -61,6 +61,10 @@ export default {
 section {
   width: 100%;
   border-bottom: 1px solid lightgray;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  top: 0;
 }
 .header-content {
   width: 88%;
@@ -138,6 +142,10 @@ img {
   }
   section{
     border: none;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin: 0 auto;
+  
   }
   .header-content-sm {
   width: 90%;
@@ -150,7 +158,7 @@ img {
 .mid-cont{
   border: 1px solid lightgrey;
   border-radius: 5em;
-  width:100%
+  width:100%;
 }
 .btn-cont-sm-flex {
 
